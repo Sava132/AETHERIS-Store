@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuiFresh | Premium Fruit Market</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Lui<span>Fresh</span></div>
+        <div class="search-bar">
+            <i data-lucide="search"></i>
+            <input type="text" id="searchInput" placeholder="Search for fresh fruits...">
+        </div>
+        <div class="cart-icon" id="cartBtn">
+            <i data-lucide="shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="hero">
+            <h1>Premium Fruit Selection</h1>
+            <p>Directly from the farm to your doorstep</p>
+        </div>
+        <div class="products-grid" id="productsGrid"></div>
+    </main>
+
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div id="cartBody">
+                <div class="cart-header">
+                    <h3>Your Basket</h3>
+                    <button class="close-btn" id="closeCart">&times;</button>
+                </div>
+                <div id="cartItems" class="cart-items-list"></div>
+                <div class="cart-footer">
+                    <div class="cart-total">
+                        <span>Total:</span>
+                        <span>$<span id="totalPrice">0</span></span>
+                    </div>
+                    <button class="checkout-btn" id="checkoutBtn">Checkout Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
