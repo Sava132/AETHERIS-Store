@@ -26,4 +26,4 @@ Welcome to **LuiFresh**, a high-end e-commerce interface designed with a focus o
 *Add a screenshot of your store here to impress visitors!*
 
 ---
-Developed with ❤️ by [Lui](https://github.com/Sava132)
+Developed with ❤️ by [Lui](https://github.com/Sava132) .
